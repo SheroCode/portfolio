@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+// variables
+$text-color: #f5f2f2;
+$text-muted: #999999; // Light gray - for hints, disabled text, etc.
+$text-secondary: #777777; // Secondary content
+$text-body: #555555; // Default paragraph/body text
+$text-primary: #333333; // Main headings or emphasized text
+$text-strong: #111111; // Very strong emphasis or titles
+
+/*Global style for element*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+section {
+  padding: 4rem 0;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: $text-strong;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+
+/*Global style for classes*/
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.d-flex {
+  display: flex;
+}

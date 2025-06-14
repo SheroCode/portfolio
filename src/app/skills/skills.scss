@@ -1,0 +1,68 @@
+@use "../../styles.scss" as *;
+
+.skills {
+  background-color: #333; // dark background
+  padding: 3rem 1rem;
+  color: #f5f2f2;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  .skills__text {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+
+  ul {
+    width: 80%;
+    margin: auto;
+    li {
+      margin-bottom: 1rem;
+      background-color: #ccc;
+      display: flex;
+      border-radius: .5rem;
+      overflow: hidden;
+      p {
+        width: 9rem;
+        background-color: $text-strong;
+        padding: 0.5rem;
+      }
+      .bar {
+        background-color: #0c0c0ca0;
+        display: inline-block;
+      }
+
+      .html {
+        width: 65%;
+      }
+      .css {
+        width: 70%;
+      }
+      .js {
+        width: 50%;
+      }
+      .ts {
+        width: 45%;
+      }
+      .react {
+        width: 30%;
+      }
+      .bs {
+        width: 55%;
+      }
+      .sass {
+        width: 30%;
+      }
+      .figma {
+        width: 40%;
+      }
+      .git {
+        width: 65%;
+      }
+    }
+  }
+}
