@@ -15,6 +15,7 @@
     text-align: center;
     margin-bottom: 2rem;
     color: #ccc;
+    line-height: 35px;
   }
 
   ul {
@@ -24,7 +25,7 @@
       margin-bottom: 1rem;
       background-color: #ccc;
       display: flex;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
       overflow: hidden;
       p {
         width: 9rem;
@@ -48,8 +49,11 @@
       .ts {
         width: 45%;
       }
+      .ng {
+        width: 60%;
+      }
       .react {
-        width: 30%;
+        width: 65%;
       }
       .bs {
         width: 55%;

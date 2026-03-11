@@ -4,6 +4,9 @@
   .container {
     display: flex;
     justify-content: space-between;
+    h2{
+      text-shadow:-3px 4px 5px  gray;
+    }
     .about__content {
       width: 65%;
       .download-btn {

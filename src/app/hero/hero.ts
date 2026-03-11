@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 export class Hero {
   name:string = 'Shereen Mohamed';
   jobTitle:string="Frontend Developer"
+
+
+  contact(){
+    
+  }
 }
